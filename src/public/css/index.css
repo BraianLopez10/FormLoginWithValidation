@@ -1,133 +1,129 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
-    font-size: 16px;
-    font-family: 'Poppins', sans-serif;
-    background-color: hsl(0, 100%, 74%) ;
-    background-image: url("../public/images/bg-intro-mobile.png");
-    background-repeat: repeat;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  background-color: hsl(0, 100%, 74%);
+  background-image: url("../public/images/bg-intro-mobile.png");
+  background-repeat: repeat;
 }
 .section {
-    padding-bottom: 50px;
-    color: white;
+  padding-bottom: 50px;
+  color: white;
 }
 .wrapper {
-    padding: 20px;
-   
+  padding: 20px;
 }
-
 
 .parrafo {
-    margin-top: 80px;
-    margin-bottom: 50px;
+  margin-top: 80px;
+  margin-bottom: 50px;
 }
-.parrafo .title{
-    text-align: center;
-    font-size: 1.6em;
+.parrafo .title {
+  text-align: center;
+  font-size: 1.6em;
 }
-.parrafo .parrafo-text{
-    margin-top: 15px;
-    font-size: 1em;
-    padding: 10px;
-    text-align: center;
+.parrafo .parrafo-text {
+  margin-top: 15px;
+  font-size: 1em;
+  padding: 10px;
+  text-align: center;
 }
 
-.info{
-    padding: 20px 35px 20px 35px;
-    text-align: center;
-    border-radius: 10px;
-    background-color: hsl(248, 32%, 49%);
-    margin-bottom: 15px;
-    
+.info {
+  padding: 20px 35px 20px 35px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: hsl(248, 32%, 49%);
+  margin-bottom: 15px;
 }
 .info strong {
-    display: inline;
-    font-size: 0.9em;
+  display: inline;
+  font-size: 0.9em;
 }
 .info p {
-    display: inline-block;
-    font-size: 0.9em;
+  display: inline-block;
+  font-size: 0.9em;
 }
 
 .wrapper form {
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
 }
 .input-group {
-    margin-bottom: 10px;
-    overflow: hidden;
-    position: relative;
-    padding: 5px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  position: relative;
+  padding: 5px;
 }
 .input-form {
-    border: 1px solid rgb(150, 147, 147);
-    border-radius: 10px;
-    font-weight: 600;
-    font-size: 0.8em;
-    width: 100%;
-    font-family: unset;
-    padding:10px;
-    outline: none;
+  border: 1px solid rgb(150, 147, 147);
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 0.8em;
+  width: 100%;
+  font-family: unset;
+  padding: 10px;
+  outline: none;
 }
 .messague {
-    font-size: small;
-    font-weight: lighter;
-    font-size: 0.7em;
-    display: none;
-    color: red;
+  font-size: small;
+  font-weight: lighter;
+  font-size: 0.7em;
+  display: none;
+  color: red;
 }
 
 .status {
-    position: absolute;
-    right: 20px;
-    display: none;
-    top: 13px;
+  position: absolute;
+  right: 20px;
+  display: none;
+  top: 13px;
 }
 
-.button-submit{
-    background-color: hsl(154, 59%, 51%);
-    font-weight: 500;
-    font-family: unset;
-    color: white;
-    padding: 15px;
-    width: 100%;
-    border-radius: 5px;
+.button-submit {
+  background-color: hsl(154, 59%, 51%);
+  font-weight: 500;
+  font-family: unset;
+  color: white;
+  padding: 15px;
+  width: 100%;
+  border-radius: 5px;
+  border: 0;
 }
-.terms{
-    margin-top: 5px;
-    text-align: center;
-    font-size: 0.7em;
-    color: rgb(187, 183, 183);
+.terms {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 0.7em;
+  color: rgb(187, 183, 183);
 }
-.terms  span {
-    font-weight: bold;
-    color: tomato;
+.terms span {
+  font-weight: bold;
+  color: tomato;
 }
 
-@media screen and (min-width:720px){
-    .wrapper {
-        padding-top: 100px;
-        display: flex;
-        justify-content: space-evenly;
-        height: 700px;
-    }
-    .parrafo{
-        margin: 0;
-        margin-top: 100px;
-        width: 400px;
-    }
-    .parrafo .title{
-        text-align: left;
-    }
-    .parrafo .parrafo-text{
-        text-align: left;
-        margin: 0;
-        padding: 0;
-    }
-
-   
+@media screen and (min-width: 720px) {
+  .wrapper {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 700px;
+  }
+  .parrafo {
+    margin: 0;
+    margin-top: 100px;
+    width: 400px;
+  }
+  .parrafo .title {
+    text-align: left;
+  }
+  .parrafo .parrafo-text {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
 }
